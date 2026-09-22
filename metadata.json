@@ -1,0 +1,6 @@
+{
+  "name": "Innova Dental",
+  "description": "Innova Dental - Modern dental clinic in Faisalabad providing specialist care, certified doctors, and comprehensive dental treatments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

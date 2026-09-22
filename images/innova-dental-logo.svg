@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="340" height="70">
+  <defs>
+    <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="gradSparkle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Mark -->
+  <g transform="translate(10, 8)">
+    <!-- Tooth silhouette -->
+    <path d="M 27 5 C 16 5 9 12 9 24 C 9 34 14 43 17 50 C 18 52 20 52 21 49 C 23 41 24 35 27 35 C 30 35 31 41 33 49 C 34 52 36 52 37 50 C 40 43 45 34 45 24 C 45 12 38 5 27 5 Z" fill="url(#gradLogo)" />
+    <!-- Inner shine / smile arc -->
+    <path d="M 18 22 C 22 28 32 28 36 22" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <!-- Sparkle star -->
+    <path d="M 40 6 Q 42 10 46 12 Q 42 14 40 18 Q 38 14 34 12 Q 38 10 40 6 Z" fill="url(#gradSparkle)" />
+  </g>
+
+  <!-- Typography -->
+  <text x="72" y="36" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#0f172a" letter-spacing="-0.5">INNOVA<tspan fill="#0284c7"> DENTAL</tspan></text>
+  <text x="74" y="52" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#64748b" letter-spacing="2.5">CLINIC • FAISALABAD</text>
+</svg>

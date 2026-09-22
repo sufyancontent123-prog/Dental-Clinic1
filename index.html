@@ -37,13 +37,30 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Dental Heaven- Dentist &amp; Dental Clinic</title>
-    <link rel="icon" sizes="180x180" type="image/png" href="images/117256154_315527416307845_5372349362267501474_n.png">
+    <link rel="stylesheet" href="css/custom-theme.css">
+    <title>Innova Dental - Dentist &amp; Dental Clinic | Faisalabad</title>
+    <link rel="icon" type="image/svg+xml" href="images/innova-dental-logo.svg">
+    <script>
+        if (sessionStorage.getItem('innova_visited')) {
+            document.documentElement.classList.add('innova-preloader-skip');
+        }
+    </script>
 </head>
 <body>
-    <div class="preloader">
-        <div class="loader">
-            <div class="sbl-half-circle-spin"></div>
+    <!-- Typewriter Preloader (INNOVA CLINIC) -->
+    <div class="innova-preloader" id="innovaPreloader">
+        <div class="innova-preloader-card">
+            <div class="innova-preloader-logo-ring">
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2C8.5 2 6 4.5 6 8c0 3 1.5 5 2.5 8 .8 2.4 1.5 4 3.5 4s2.7-1.6 3.5-4c1-3 2.5-5 2.5-8 0-3.5-2.5-6-6-6z"/>
+                    <path d="M9 9c1-1 2-1 3-1s2 0 3 1"/>
+                </svg>
+            </div>
+            <div class="innova-typewriter-row">
+                <span class="innova-typewriter-text" id="innovaTypewriter"></span>
+                <span class="innova-typewriter-cursor">|</span>
+            </div>
+            <div class="innova-preloader-tagline">Advanced &amp; Painless Dentistry • Faisalabad</div>
         </div>
     </div>
 
@@ -54,21 +71,21 @@
                     <ul class="top-header-information">
                         <li>
                             <i class="bx bxs-map"></i>
-                            21-S Hassan Commercial Market, Kashmir Bridge, East Canal Road, Zia Town, Faisalabad.
+                            Faisalabad, Pakistan
                         </li>
-                        <!--<li>
-                            <i class='bx bx-envelope-open'></i>
-                            <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#82f1f7f2f2edf0f6c2e5f0ebecace1edef"><span class="__cf_email__" data-cfemail="92e1e7e2e2fde0e6d2f5e0fbfcbcf1fdff">[email&#160;protected]</span></a>
-                        </li>-->
+                        <li>
+                            <i class="bx bx-clinic"></i>
+                            Innova Dental Clinic
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <ul class="top-header-optional">
                         <li>
-                            <a href="https://www.facebook.com/Dental-Heaven-103033758671878" target="_blank">
+                            <a href="#" target="_blank" title="Facebook">
                                 <i class="bx bxl-facebook"></i>
                             </a>
-                            <a href="https://instagram.com/dentalheavenfsd?igshid=YmMyMTA2M2Y=" target="_blank">
+                            <a href="#" target="_blank" title="Instagram">
                                 <i class="bx bxl-instagram"></i>
                             </a>
                         </li>
@@ -83,9 +100,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-12">
                     <div class="middle-header">
-                        <!--<a href="index.html">Grinnnn</a>-->
-                        <a href="index.html">
-                            <img style="max-width:50%" src="images/117256154_315527416307845_5372349362267501474_n.png" alt="Logo">
+                        <a href="index.html" class="d-flex align-items-center">
+                            <img style="max-height:55px; width:auto;" src="images/innova-dental-logo.svg" alt="Innova Dental Logo">
                         </a>
                     </div>
                 </div>
@@ -113,7 +129,7 @@
                 <div class="main-responsive-menu">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="images/117256154_315527416307845_5372349362267501474_n.png" alt="logo">
+                            <img style="max-height:48px; width:auto;" src="images/innova-dental-logo.svg" alt="Innova Dental Logo">
                         </a>
                     </div>
                 </div>
@@ -128,82 +144,22 @@
                                 <a href="index.html" class="nav-link active">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="about-us.html" class="nav-link">About Us</a>
+                                <a href="about-us.html" class="nav-link">About</a>
                             </li>
-
                             <li class="nav-item">
-                                <a href="dentist.html" class="nav-link">Dentist</a>
+                                <a href="doctors.html" class="nav-link">Doctors</a>
                             </li>
-
-                            <li class="nav-item">
-                                <a href="services.html" class="nav-link">Services</a>
-                            </li>
-                            <!--<li class="nav-item">
-        <a href="#" class="nav-link">
-            Pages
-            <i class='bx bx-caret-down'></i>
-        </a>
-        <ul class="dropdown-menu">
-            <li class="nav-item">
-                <a href="about-us.html" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a href="appointment.html" class="nav-link">Appointment</a>
-            </li>
-            <li class="nav-item">
-                <a href="pricing.html" class="nav-link">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a href="testimonials.html" class="nav-link">Testimonials</a>
-            </li>
-            <li class="nav-item">
-                <a href="gallery.html" class="nav-link">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a href="login.html" class="nav-link">Login</a>
-            </li>
-            <li class="nav-item">
-                <a href="register.html" class="nav-link">Register</a>
-            </li>
-            <li class="nav-item">
-                <a href="faq.html" class="nav-link">FAQ</a>
-            </li>
-            <li class="nav-item">
-                <a href="error-404.html" class="nav-link">404 Error</a>
-            </li>
-            <li class="nav-item">
-                <a href="terms-of-service.html" class="nav-link">Terms of Service</a>
-            </li>
-            <li class="nav-item">
-                <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-                <a href="coming-soon.html" class="nav-link">Coming Soon</a>
-            </li>
-        </ul>
-    </li>-->
-
-                            <!--<li class="nav-item">
-                                <a href="equipments.html" class="nav-link">Equipment</a>
-                            </li>-->
                             <li class="nav-item">
                                 <a href="faq.html" class="nav-link">FAQ</a>
                             </li>
                             <li class="nav-item">
-                                <a href="contact-us.html" class="nav-link">Contact Us</a>
+                                <a href="contact.html" class="nav-link">Contact</a>
                             </li>
                         </ul>
                         <div class="others-options d-flex align-items-center">
-                            <!--<div class="option-item">
-                                <div class="search-btn">
-                                    <a class="#" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
-                                        <i class="flaticon-search"></i>
-                                    </a>
-                                </div>
-                            </div>-->
                             <div class="option-item">
                                 <div class="navbar-btn">
-                                    <a href="appointment.html" class="default-btn">Book Appointment</a>
+                                    <a href="tel:03338524446" class="default-btn">Book Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -243,47 +199,50 @@
     </div>
 
     <div class="home-slides owl-carousel owl-theme">
-        <div class="main-slides-item">
+        <div class="main-slides-item slide-innova-1">
             <div class="container">
                 <div class="main-slides-content">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Keeping Teeth Clean
+                        Innova Dental • Faisalabad
                     </span>
-                    <h1>Give your face <span>New  Smile.</span></h1>
-                    <p>Give new shine to your teeth with our best teeth whitening protocols.</p>
+                    <h1>Give Your Face <span>A New Smile.</span></h1>
+                    <p>Innova Dental in Faisalabad delivers advanced dental care, aesthetic smile transformations, and gentle, pain-free treatments.</p>
                     <div class="slides-btn">
                         <a href="appointment.html" class="default-btn">Book Appointment</a>
+                        <a href="about-us.html" class="optional-btn">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-slides-item item-bg2">
+        <div class="main-slides-item item-bg2 slide-innova-2">
             <div class="container">
                 <div class="main-slides-content">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Keeping Teeth Clean
+                        Pain-Free Dental Care
                     </span>
-                    <h1>Forget about your <span>Tooth Pain</span></h1>
-                    <p>Visit us today and go back with big smile.</p>
+                    <h1>Say Goodbye To <span>Dental Pain</span></h1>
+                    <p>Visit our modern Faisalabad clinic today and leave with confidence, comfort, and a radiant healthy smile.</p>
                     <div class="slides-btn">
                         <a href="appointment.html" class="default-btn">Book Appointment</a>
+                        <a href="about-us.html" class="optional-btn">Our Doctors</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-slides-item item-bg3">
+        <div class="main-slides-item item-bg3 slide-innova-3">
             <div class="container">
                 <div class="main-slides-content">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Keeping Teeth Clean
+                        Modern Tech &amp; Certified Specialists
                     </span>
                     <h1>Your Health is Our Top <span>Priority</span></h1>
-                    <p>Comprehensive oral and dental care program for your unique smile.</p>
+                    <p>Comprehensive oral healthcare designed for children, adults, and seniors with international clinic standards in Faisalabad.</p>
                     <div class="slides-btn">
                         <a href="appointment.html" class="default-btn">Book Appointment</a>
+                        <a href="contact-us.html" class="optional-btn">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -300,10 +259,10 @@
                                 <i class="flaticon-doctor"></i>
                             </div>
                             <h3>
-                                <a href="family-dental-clinic.html">Family Dental Clinic</a>
+                                <a href="about-us.html">Family Dental Care</a>
                             </h3>
                             <p>
-                                Dental Heaven provides every type of dental treatment meeting international standards to the people of all age groups.
+                                Innova Dental provides international standard treatments for all age groups right here in Faisalabad.
                             </p>
                         </div>
                     </div>
@@ -315,9 +274,9 @@
                                 <i class="flaticon-chair"></i>
                             </div>
                             <h3>
-                                <a href="equipments.html">State of the Art</a>
+                                <a href="services.html">State-of-the-Art Clinic</a>
                             </h3>
-                            <p>Dental Heaven is equipped with latest and modern technology and equipment to serve and guide the people best.</p>
+                            <p>Innova Dental is equipped with modern sterilized dental technologies and equipment for optimal patient comfort.</p>
                         </div>
                     </div>
                 </div>
@@ -328,12 +287,10 @@
                                 <i class="flaticon-healthcare"></i>
                             </div>
                             <h3>
-                                <a href="" style="width:300px">Deals and Packages</a>
+                                <a href="appointment.html" style="width:300px">Packages &amp; Care</a>
                             </h3>
                             <p>
-                                20-50% discount on all treatment during 1st year
-                                Membership card:<br>
-                                Get our membership to get discount.
+                                Transparent pricing, preventive dental checks, and patient-first consultation packages in Faisalabad.
                             </p>
                         </div>
                     </div>
@@ -342,7 +299,7 @@
         </div>
     </section>
 
-    <section class="services-area pb-70">
+    <section id="services" class="services-area pb-70">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7">
@@ -364,18 +321,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="general-dentistry.html"><img src="images/General-dentistry.jpg" style="width:402px;height:302px" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800&auto=format&fit=crop" alt="General Dentistry"></a>
                             <div class="icon">
-                                <a href="general-dentistry.html"><i class="flaticon-chair"></i></a>
+                                <a href="services.html"><i class="flaticon-chair"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="general-dentistry.html">General Dentistry</a>
+                                <a href="services.html">General Dentistry</a>
                             </h3>
                             <p>
-                                Complete diagnosis of dental problems after thorough clinical examination and investigations. Dental Heaven will make your smile better.
-                                Treatment of presenting complaint on priority basis.
+                                Complete diagnosis of dental problems after thorough clinical examination. Innova Dental in Faisalabad delivers gentle preventive and restorative care.
                             </p>
                         </div>
                     </div>
@@ -383,17 +339,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="consmetic-dentistry.html"><img src="images/Cosmetic.jpg" style="width:402px;height:302px;" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop" alt="Cosmetic Dentistry"></a>
                             <div class="icon">
-                                <a href="consmetic-dentistry.html"><i class="flaticon-dental-care"></i></a>
+                                <a href="services.html"><i class="flaticon-dental-care"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="consmetic-dentistry.html">Cosmetic Dentistry</a>
+                                <a href="services.html">Cosmetic Dentistry</a>
                             </h3>
                             <p>
-                                According to your needs we will provide you with Dental Veeners, Composite restorations, Tooth whitening, Crowns and other procedures that may alter the size of your teeth to best match your smile.
+                                Aesthetic veneers, composite restorations, Hollywood smile design, and tooth contouring customized to bring out your best smile.
                             </p>
                         </div>
                     </div>
@@ -401,18 +357,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="teeth-whitening.html"><img src="images/teeth-whitening.jpg" style="width:402px;height:302px" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?q=80&w=800&auto=format&fit=crop" alt="Teeth Whitening"></a>
                             <div class="icon">
-                                <a href="teeth-whitening.html"><i class="flaticon-dental-implant"></i></a>
+                                <a href="services.html"><i class="flaticon-dental-implant"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="teeth-whitening.html">Teeth Whitening</a>
+                                <a href="services.html">Teeth Whitening</a>
                             </h3>
                             <p>
-                                Get your teeth a model look after getting our Tooth Whitening session.
-                                Tooth whitening is done in clinic through bleaching. We also provide home applied bleaching equipment on demand.
+                                Professional in-office laser whitening protocols and custom take-home kits for immediate, radiant brightness and enamel safety.
                             </p>
                         </div>
                     </div>
@@ -420,36 +375,33 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="Orthodontics.html"><img src="images/AlignerProfiles.jpg" style="height:302px;" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=800&auto=format&fit=crop" alt="Orthodontics & Braces"></a>
                             <div class="icon">
-                                <a href="Orthodontics.html"><i class="flaticon-tooth"></i></a>
+                                <a href="services.html"><i class="flaticon-tooth"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="Orthodontics.html">Orthodontics</a>
+                                <a href="services.html">Orthodontics &amp; Aligners</a>
                             </h3>
-                            <p>Dental treatment for malaligned teeth to give you the best smile. Dental braces and other related appliances are given as a part of treatment to bring your teeth to ideal position and give you an ideal smile</p>
+                            <p>Treatment for malaligned teeth using modern clear aligners, ceramic braces, and dental correction for adults and teens.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="Dental-Implants.html"><img src="images/implant.jpg" style="height:302px" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=800&auto=format&fit=crop" alt="Dental Implants"></a>
                             <div class="icon">
-                                <a href="Dental-Implants.html"><i class="flaticon-tooth-1"></i></a>
+                                <a href="services.html"><i class="flaticon-tooth-1"></i></a>
                             </div>
                         </div>
-
-
                         <div class="services-content">
                             <h3>
-                                <a href="Dental-Implants.html">Dental Implants</a>
+                                <a href="services.html">Dental Implants</a>
                             </h3>
                             <p>
-                                Replacement of missing teeth with dental implants without causing any damage to other teeth.
-                                Dental implant is surgically placed in bone and gives high strength and durability to the artificial tooth.
+                                Permanent titanium and ceramic dental implants placed with computer-guided surgical precision for maximum longevity and natural feel.
                             </p>
                         </div>
                     </div>
@@ -457,19 +409,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="Pedodontics.html"><img src="images/istockphoto-471524152-612x612.jpg" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop" alt="Pedodontics Pediatric Dentistry"></a>
                             <div class="icon">
-                                <a href="Pedodontics.html"><i class="flaticon-tooth-2"></i></a>
+                                <a href="services.html"><i class="flaticon-tooth-2"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="Pedodontics.html">Pedodontics</a>
+                                <a href="services.html">Pedodontics (Child Care)</a>
                             </h3>
                             <p>
-                                Special care of child patient with dental problems.
-                                1st visit of a child to the dental clinic should be at the age of 6 months.
-                                Regular dental visits prevent the child from any dental diseases.
+                                Friendly, comforting dental visits tailored specifically for children. Habit counselling, sealants, and cavity-free guidance.
                             </p>
                         </div>
                     </div>
@@ -478,18 +428,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="endodontics.html"><img src="images/istockphoto-1269231046-170667a.jpg" style="width:402px;height:302px;" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=800&auto=format&fit=crop" alt="Endodontics Root Canal"></a>
                             <div class="icon">
-                                <a href="endodontics.html"><i class="flaticon-tooth"></i></a>
+                                <a href="services.html"><i class="flaticon-tooth"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="endodontics.html">Endodontics</a>
+                                <a href="services.html">Endodontics (Root Canal)</a>
                             </h3>
                             <p>
-                                Treatment of teeth with dental pain due to deep caries or injury through root canal treatment.
-                                Treatment of teeth with previously failed root canal treatment.
+                                Single-visit microscopic root canal therapy saving infected teeth with zero pain and high biocompatibility.
                             </p>
                         </div>
                     </div>
@@ -498,23 +447,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="dental-surgery.html"><img src="images/dentalsuregry.jpg" style="width:402px;height:302px;" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=800&auto=format&fit=crop" alt="Dental Surgery"></a>
                             <div class="icon">
-                                <a href="dental-surgery.html"><i class="flaticon-healthcare"></i></a>
+                                <a href="services.html"><i class="flaticon-healthcare"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="dental-surgery.html">Dental Surgery</a>
+                                <a href="services.html">Dental &amp; Oral Surgery</a>
                             </h3>
                             <p>
-                                Removal of hopeless teeth by extraction.
-                                Removal of impacted teeth.
-
-                                Removal of teeth is done by:
-                                Simple extraction
-                                Surgical extraction
-
+                                Safe extraction of impacted wisdom teeth, bone grafting, and gentle periodontal surgical procedures in sterile clinical conditions.
                             </p>
                         </div>
                     </div>
@@ -523,23 +466,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="services-image">
-                            <a href="Prosthodontics.html"><img src="images/shutterstock_1536445886.jpg.optimal.jpg" style="width:402px;height:302px;" alt="image"></a>
+                            <a href="services.html"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop" alt="Prosthodontics"></a>
                             <div class="icon">
-                                <a href="Prosthodontics.html"><i class="flaticon-dental-care"></i></a>
+                                <a href="services.html"><i class="flaticon-dental-care"></i></a>
                             </div>
                         </div>
                         <div class="services-content">
                             <h3>
-                                <a href="Prosthodontics.html">Prosthodontics</a>
+                                <a href="services.html">Prosthodontics</a>
                             </h3>
                             <p>
-                                Artificial teeth to replace missing natural teeth.
-                                It includes:
-                                Removable cast partial dentures
-                                Removable full dentures
-                                Fixed teeth by crown and bridge work
-                                Dental Implants
-
+                                Custom zirconia crowns, porcelain bridges, full dentures, and precision removable dental restorations for optimal chewing and aesthetics.
                             </p>
                         </div>
                     </div>
@@ -631,31 +568,31 @@
     </section>
 
 
-    <section class="about-area pb-100" style="padding-bottom:10px">
+    <section class="about-area pt-70 pb-70">
         <div class="container">
-            <!--<div class="row align-items-center">
+            <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="about-content">
                         <span class="sub-title">
                             <i class="flaticon-hashtag-symbol"></i>
-                            About Our Hospital
+                            About Innova Dental • Faisalabad
                         </span>
-                        <h3>Our Clients are Our Priority, We Offer Quality Dental Services <span>of Specialists</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3>Our Patients Are Our Priority: World-Class Dental Care <span>In Faisalabad</span></h3>
+                        <p>Innova Dental is a premier modern dental clinic established in Faisalabad, dedicated to pain-free treatments, hygienic environments, and certified specialized dental surgery.</p>
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <ul class="about-list">
                                     <li>
                                         <i class="flaticon-check"></i>
-                                        Complete Crown
+                                        Modern Digital Diagnostics
                                     </li>
                                     <li>
                                         <i class="flaticon-check"></i>
-                                        Dental Implants
+                                        Precision Dental Implants
                                     </li>
                                     <li>
                                         <i class="flaticon-check"></i>
-                                        Dental X-Ray
+                                        Clear Aligners &amp; Braces
                                     </li>
                                 </ul>
                             </div>
@@ -663,64 +600,62 @@
                                 <ul class="about-list">
                                     <li>
                                         <i class="flaticon-check"></i>
-                                        Cosmetic Filling
+                                        Aesthetic Smile Makeovers
                                     </li>
                                     <li>
                                         <i class="flaticon-check"></i>
-                                        Cosmetic Filling
+                                        Painless Single-Visit Root Canal
                                     </li>
                                     <li>
                                         <i class="flaticon-check"></i>
-                                        Root Canal
+                                        Child-Friendly Pedodontics
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mt-4">
                             <div class="col-lg-6 col-md-6">
-                                <div class="about-info">
-                                    <i class="flaticon-caduceus"></i>
-                                    <h4>25 Years</h4>
-                                    <span>Dental Experienced</span>
+                                <div class="about-info" style="display:flex;align-items:center;gap:15px;">
+                                    <i class="flaticon-caduceus" style="font-size:36px;color:#0284c7;"></i>
+                                    <div>
+                                        <h4 style="margin:0;font-size:20px;font-weight:700;">3 Specialists</h4>
+                                        <span style="color:#64748b;">Certified Dental Doctors</span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
-                                <div class="about-info">
-                                    <i class="flaticon-chair"></i>
-                                    <h4>6405+</h4>
-                                    <span>Dental Services</span>
+                                <div class="about-info" style="display:flex;align-items:center;gap:15px;">
+                                    <i class="flaticon-chair" style="font-size:36px;color:#0d9488;"></i>
+                                    <div>
+                                        <h4 style="margin:0;font-size:20px;font-weight:700;">Faisalabad</h4>
+                                        <span style="color:#64748b;">Central Accessible Location</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="about-image">
-                        <img src="assets/images/about/about-1.png" alt="image">
+                    <div class="about-image" style="border-radius:16px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,0.12);">
+                        <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?q=80&w=1000&auto=format&fit=crop" alt="Innova Dental Faisalabad Clinic Interior">
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div>
     </section>
-
 
     <section class="core-features-area pt-100 pb-70" style="padding-top:30px;padding-bottom:20px">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="section-title-warp" style="margin-bottom:30px">
                         <span class="sub-title">
                             <i class="flaticon-hashtag-symbol"></i>
-                            Specialty and Our Features
+                            Why Choose Innova Dental
                         </span>
-                        <h2>Features That You Will Love Us</h2>
+                        <h2>Features That Set Innova Dental Apart in Faisalabad</h2>
                     </div>
                 </div>
-                <!--<div class="col-lg-8">
-                    <div class="section-warp-btn">
-                        <a href="services.html" class="default-btn">View All</a>
-                    </div>
-                </div>-->
             </div>
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
@@ -729,9 +664,9 @@
                             <i class="flaticon-caduceus"></i>
                         </div>
                         <h3>
-                            <a href="neat-clean-environment.html">Neat and Clean Environment</a>
+                            <a href="about-us.html">Sterile &amp; Clean Clinic</a>
                         </h3>
-                        <p>Denatl Heaven provides hygienic environemnt. You’ll have a real 5-star feeling while waiting or getting treatment in Dental Heaven.</p>
+                        <p>Innova Dental maintains hospital-grade sterilization protocols and clean modern clinical comfort in Faisalabad.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -740,10 +675,10 @@
                             <i class="flaticon-diamond"></i>
                         </div>
                         <h3>
-                            <a href="family-dental-clinic.html">True Family Dental Clinic</a>
+                            <a href="about-us.html">Comprehensive Dental Care</a>
                         </h3>
                         <p>
-                            Dental Heaven provides every type of dental treatment meeting international standards to the people of all age groups.
+                            Innova Dental provides treatments meeting international healthcare standards for all age groups under one roof.
                         </p>
                     </div>
                 </div>
@@ -754,9 +689,9 @@
                             <i class="flaticon-policy"></i>
                         </div>
                         <h3>
-                            <a href="dentist.html">Certified Dentists</a>
+                            <a href="#dentists">3 Certified Dentists</a>
                         </h3>
-                        <p>Our dental team is highly professional and skilled. Our staff meets the standards and requirements of any internatinoal clinic having experience of 25 years.</p>
+                        <p>Our dental specialists — Doctor 1, Doctor 2, and Doctor 3 — offer expert diagnostic and procedural mastery.</p>
                     </div>
                 </div>
 
@@ -766,71 +701,77 @@
                             <i class="flaticon-hospitalisation"></i>
                         </div>
                         <h3>
-                            <a href="patient-care-detail.html">Patient Care</a>
+                            <a href="about-us.html">Patient-First Care</a>
                         </h3>
-                        <p>Patient Care and satisfaction is our top priority and primary purpose. We consider all international paramterters and standards to do patient dental work.</p>
+                        <p>Compassionate pain management and transparent treatment planning designed around your comfort and health.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="doctor-area pb-70" style="padding-bottom:20px">
+    <section id="dentists" class="doctor-area pb-70" style="padding-top:40px;padding-bottom:50px">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-7">
                     <div class="section-title-warp">
                         <span class="sub-title">
                             <i class="flaticon-hashtag-symbol"></i>
-                            Our Dentist
+                            Our Specialized Dentists
                         </span>
-                        <h2>Our Specialized and Experienced Dentist</h2>
+                        <h2>Meet Our 3 Expert Doctors at Innova Dental</h2>
+                        <p style="color:#64748b;margin-top:8px;">Highly trained specialist doctors serving patients with care in Faisalabad.</p>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-5 text-lg-right">
                     <div class="section-warp-btn">
-                        <a href="dentist.html" class="default-btn">View All</a>
+                        <a href="about-us.html" class="default-btn">Meet Our Team</a>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="single-doctor">
-                        <a href="dentist-TariqShakeel.html"><img src="images/3774299.png" alt="image"></a>
+                        <div class="doctor-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=800&auto=format&fit=crop" alt="Doctor 1">
+                        </div>
                         <div class="doctor-content">
-                            <h3>
-                                <a href="dentist-TariqShakeel.html">Dr. Tariq Shakeel</a>
-                            </h3>
-                            <span>Family Dental Surgeon</span>
-                            <!--<div class="share-link">
-                                <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                                <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                                <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                                <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                            </div>-->
+                            <h3>Doctor 1</h3>
+                            <span class="specialty">Senior Dental Surgeon (FCPS)</span>
+                            <p style="color:#64748b; font-size:13px; margin:8px 0 10px; line-height:1.4;">
+                                Specialist in Advanced Dental Implants, Surgical Extractions &amp; Full Smile Reconstruction.
+                            </p>
+                            <p class="location-tag"><i class="bx bxs-map"></i> Faisalabad</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="single-doctor">
-                        <a href="dentist-FarihaNaz.html"><img src="images/3304567.png" alt="image"></a>
+                        <div class="doctor-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1594824813628-984ddb368735?q=80&w=800&auto=format&fit=crop" alt="Doctor 2">
+                        </div>
                         <div class="doctor-content">
-                            <h3>
-                                <a href="dentist-FarihaNaz.html">Prof. Dr. Fariha Naz</a>
-                            </h3>
-                            <span>Consultant Dental Surgeon</span>
+                            <h3>Doctor 2</h3>
+                            <span class="specialty">Consultant Orthodontist (MSc)</span>
+                            <p style="color:#64748b; font-size:13px; margin:8px 0 10px; line-height:1.4;">
+                                Specialist in Invisible Clear Aligners, Ceramic Braces, Bite Correction &amp; Teeth Alignment.
+                            </p>
+                            <p class="location-tag"><i class="bx bxs-map"></i> Faisalabad</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 offset-lg-0 offset-md-3">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="single-doctor">
-                        <a href=""><img src="images/doctoraa.png" alt="image"></a>
+                        <div class="doctor-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop" alt="Doctor 3">
+                        </div>
                         <div class="doctor-content">
-                            <h3>
-                                <a href="">Dr. Maryam</a>
-                            </h3>
-                            <span>Dental Surgeon</span>
+                            <h3>Doctor 3</h3>
+                            <span class="specialty">Aesthetic &amp; Restorative Specialist</span>
+                            <p style="color:#64748b; font-size:13px; margin:8px 0 10px; line-height:1.4;">
+                                Specialist in Single-Visit Painless Root Canals, Porcelain Veneers &amp; Pediatric Dental Care.
+                            </p>
+                            <p class="location-tag"><i class="bx bxs-map"></i> Faisalabad</p>
                         </div>
                     </div>
                 </div>
@@ -838,55 +779,47 @@
         </div>
     </section>
 
-
-    <footer style="padding-top:30px;padding-bottom:10px" class="footer-area pt-100 pb-70">
+    <footer id="contact" style="padding-top:50px;padding-bottom:20px" class="footer-area pt-100 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-footer-widget">
                         <h2>
                             <a href="index.html">
-                                <img style="max-width:50%;" src="images/117256154_315527416307845_5372349362267501474_n.png" alt="Logo">
+                                <img style="max-height:55px; width:auto;" src="images/innova-dental-logo.svg" alt="Innova Dental Logo">
                             </a>
                         </h2>
                         <p>
-                            Give your face a New Smile with Dental Heaven.
+                            Innova Dental - Modern dental clinic in Faisalabad providing top-tier oral healthcare, painless procedures, and aesthetic smile transformations.
                         </p>
 
-                        <div class="footer-info">
-                            <a href="dentist-TariqShakeel.html">
-                                <img src="images/3774299.png" alt="image">
-                                <h4>Dr. Tariq Shakeel</h4>
-                                <span>CEO &amp; Founder</span>
-                            </a>
-
+                        <div class="footer-info d-flex align-items-center" style="gap:14px;margin-top:20px;">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=800&auto=format&fit=crop" style="width:52px;height:52px;border-radius:50%;object-fit:cover;" alt="Doctor 1">
+                            <div>
+                                <h4 style="margin:0;color:#fff;font-size:16px;">Doctor 1</h4>
+                                <span style="color:#94a3b8;font-size:13px;">Lead Surgeon &amp; Clinical Director</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--<div class="col-lg-3 col-sm-6">
-                    <div class="single-footer-widget">
-                        <h3>Latest News</h3>
-                        <div class="footer-widget-blog">
-                            <article class="item">
-                                <div class="info">
-                                    <h4 style="color:white">We are regularly participating in different exhibitions worldwide. Please keep in touch with us for updates.</h4>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>-->
                 <div class="col-lg-4 col-sm-6">
                     <div class="single-footer-widget">
-                        <h3>Useful Link</h3>
+                        <h3>Quick Links</h3>
                         <ul class="quick-links">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
                             <li>
                                 <a href="about-us.html">About Us</a>
                             </li>
                             <li>
-                                <a href="services.html">Dental Services</a>
+                                <a href="doctors.html">Our Doctors</a>
                             </li>
                             <li>
-                                <a href="dentist.html">Dentist</a>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -914,7 +847,7 @@
                             <li>
                                 <i class="flaticon-red-cross"></i>
                                 <span>
-                                    21-S Hassan Commercial Market, Kashmir Bridge, East Canal Road, Zia Town, Faisalabad.
+                                    Faisalabad, Pakistan
                                 </span>
                             </li>
                         </ul>
@@ -958,7 +891,6 @@
     <script src="js/wow.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/innova-preloader.js"></script>
 
-
-
-</body><!-- Mirrored from templates.hibootstrap.com/grin/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 May 2021 11:24:02 GMT --></html>
+</body></html>
