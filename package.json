@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.js",
-    "build": "echo 'No build step required for static site'",
+    "dev": "node server.ts",
+    "build": "node build.js",
     "lint": "echo 'No lint issues found'",
-    "start": "node server.js"
+    "start": "node server.ts"
   },
   "dependencies": {
     "express": "^4.21.2"
